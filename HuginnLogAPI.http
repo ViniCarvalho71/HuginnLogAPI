@@ -1,0 +1,6 @@
+@HuginnLogAPI_HostAddress = http://localhost:5135
+
+GET {{HuginnLogAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

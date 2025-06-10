@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "USOr6jA8jc8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Vinicius\\RiderProjects\\HuginnLogAPI\\HuginnLogAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\Vinicius\\.nuget\\packages\\scalar.aspnetcore\\2.4.13\\scalar.aspnetcore.2.4.13.nupkg.sha512"
+  ],
+  "logs": []
+}

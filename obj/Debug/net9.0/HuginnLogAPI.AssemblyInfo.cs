@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HuginnLogAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33714c1527e0430d4830f3daf9756afcbe8032f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+effe3b9ad04d8fe94d29515d0672f8eaa58cb8ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("HuginnLogAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HuginnLogAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

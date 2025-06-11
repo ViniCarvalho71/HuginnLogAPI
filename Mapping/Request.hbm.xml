@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+        <!--Mapear entidade curso para NHibernate-->
+<hibernate-mapping
+        xmlns="urn:nhibernate-mapping-2.2"
+        namespace="HuginnLogAPI.Models"
+        assembly="HuginnLogAPI">
+
+    <class name="Request" lazy="false" table="requests">
+        <id name="Id" column="id" type="long">
+            <generator class="sequence">
+                <param name="sequence">requests_seq</param>
+            </generator>
+        </id>
+
+        <property name="Path"	type="string" length="5000" />
+        <property name="Body"	type="string" length="5000" />
+        <property name="Method" type="string"		not-null="false" />
+        <property name="DataCadastro" type="DateTime" not-null="true"/>
+
+        <many-to-one name="User"
+                     column="alunoid"
+                     fetch="join"
+                     foreign-key="fk_request_user" />
+
+    </class>
+
+</hibernate-mapping>

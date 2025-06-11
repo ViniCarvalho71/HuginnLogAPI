@@ -8,7 +8,23 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+    <PackageReference Include="NHibernate" Version="5.5.2" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.4.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="hibernate.cfg.xml" />
+    <Content Include="hibernate.cfg.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Mapping\Request.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Request.hbm.xml" />
+    <None Remove="Mapping\User.hbm.xml" />
+    <EmbeddedResource Include="Mapping\User.hbm.xml" />
   </ItemGroup>
 
 </Project>

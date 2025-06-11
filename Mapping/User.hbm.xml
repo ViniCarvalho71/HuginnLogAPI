@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+        <!--Mapear entidade curso para NHibernate-->
+<hibernate-mapping
+        xmlns="urn:nhibernate-mapping-2.2"
+        namespace="HuginnLogAPI.Models"
+        assembly="HuginnLogAPI">
+
+    <class name="User" lazy="false" table="users">
+        <id name="Id" column="id" type="long">
+            <generator class="sequence">
+                <param name="sequence">users_seq</param>
+            </generator>
+        </id>
+
+        <property name="Email"	type="string" length="50" />
+        <property name="Password"	type="string" length="100" />
+        <property name="Username" type="string"		length="20" />
+        <property name="Name"	type="string" length="50" />
+
+        
+
+    </class>
+
+</hibernate-mapping>
